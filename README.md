@@ -7,22 +7,22 @@ Heart disease is one of the leading causes of mortality worldwide. Early detecti
 Dataset Overview: The dataset consists of various medical parameters and symptoms related to cardiovascular health.
 The features include:
   1. Demographic Features:
-     1.1 age: Age of the individual
-     1.2 sex: Gender (0 = Female, 1 = Male)
+     age: Age of the individual,
+     sex: Gender (0 = Female, 1 = Male)
   2. Clinical & Test Features:
-     2.01 cp: Chest pain type (0 = Typical Angina, 1 = Atypical Angina, 2 = Non-anginal Pain, 3 = Asymptomatic)
-     2.02 trestbps: Resting blood pressure (in mm Hg)
-     2.03 chol: Serum cholesterol level (in mg/dl)
-     2.04 fbs: Fasting blood sugar (> 120 mg/dl, 1 = True, 0 = False)
-     2.05 restecg: Resting electrocardiographic results (0 = Normal, 1 = ST-T Wave abnormality, 2 = Left Ventricular Hypertrophy)
-     2.06 thalach: Maximum heart rate achieved
-     2.07 exang: Exercise-induced angina (0 = No, 1 = Yes)
-     2.08 oldpeak: ST depression induced by exercise relative to rest
-     2.09 slope: Slope of the peak exercise ST segment (0 = Upsloping, 1 = Flat, 2 = Downsloping)
-     2.10 ca: Number of major vessels colored by fluoroscopy (0–4)
-     2.11 thal: Thalassemia (1 = Normal, 2 = Fixed Defect, 3 = Reversible Defect)
+     cp: Chest pain type (0 = Typical Angina, 1 = Atypical Angina, 2 = Non-anginal Pain, 3 = Asymptomatic),
+     trestbps: Resting blood pressure (in mm Hg),
+     chol: Serum cholesterol level (in mg/dl),
+     fbs: Fasting blood sugar (> 120 mg/dl, 1 = True, 0 = False),
+     restecg: Resting electrocardiographic results (0 = Normal, 1 = ST-T Wave abnormality, 2 = Left Ventricular Hypertrophy),
+     thalach: Maximum heart rate achieved,
+     exang: Exercise-induced angina (0 = No, 1 = Yes),
+     oldpeak: ST depression induced by exercise relative to rest,
+     slope: Slope of the peak exercise ST segment (0 = Upsloping, 1 = Flat, 2 = Downsloping),
+     ca: Number of major vessels colored by fluoroscopy (0–4),
+     thal: Thalassemia (1 = Normal, 2 = Fixed Defect, 3 = Reversible Defect),
   3. Target Variable:
-     3.1 target: Presence of heart disease (1 = Disease, 0 = No Disease)
+     target: Presence of heart disease (1 = Disease, 0 = No Disease)
 
 Objectives:
 1. Perform Exploratory Data Analysis (EDA) to understand the data distribution.
